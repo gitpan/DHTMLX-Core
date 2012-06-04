@@ -3,7 +3,7 @@
 =encoding utf8
 =head1 NAME
 
-DHTMLX::Core - Basic tasks on DHTMLX Perl module.
+DHTMLX::Core - Basics tasks on DHTMLX Perl module.
 
 =head1 SYNOPSIS
 
@@ -26,7 +26,8 @@ DHTMLX::Core provides generic features used on entire DHTMLX Perl module
 
 =cut
 
-# ABSTRACT: turns baubles into trinkets
+# ABSTRACT: Basics tasks on DHTMLX Perl module
+
     use strict;
 	use warnings 'all';
 	use DBI;
@@ -45,10 +46,10 @@ DHTMLX::Core provides generic features used on entire DHTMLX Perl module
 	
 =head1 VERSION
 
-0.002
+0.003
 
 =cut
-	$VERSION = '0.002';
+	$VERSION = '0.003';
 	
 	# variaveis e definicoes iniciais
 	my $dsn;
@@ -56,9 +57,9 @@ DHTMLX::Core provides generic features used on entire DHTMLX Perl module
         my $SGDB = "PostgreSQL"; # PostgreSQL # SQL Server
         my $hostbanco = "localhost"; # 127.0.0.1
         my $instancia = "CLOUDWORK\\SQLEXPRESS"; # \\ duas barras para scape CLOUDWORK\\SQLEXPRESS - Para MS SQL Version
-        my $nomebanco = "xxxxx";
-        my $userbanco = "xxxx"; # sa
-        my $senhabanco = 'xxxxx';
+        my $nomebanco = "ime1";
+        my $userbanco = "postgres"; # sa
+        my $senhabanco = 'Qw3@lklk2244';
         my $driver = "ADO"; # Pg # ADO # ODBC
         
         my $framework = "ASP";
