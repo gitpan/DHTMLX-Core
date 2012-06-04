@@ -45,10 +45,10 @@ DHTMLX::Core provides generic features used on entire DHTMLX Perl module
 	
 =head1 VERSION
 
-0.001
+0.002
 
 =cut
-	$VERSION = '0.001';
+	$VERSION = '0.002';
 	
 	# variaveis e definicoes iniciais
 	my $dsn;
@@ -56,9 +56,9 @@ DHTMLX::Core provides generic features used on entire DHTMLX Perl module
         my $SGDB = "PostgreSQL"; # PostgreSQL # SQL Server
         my $hostbanco = "localhost"; # 127.0.0.1
         my $instancia = "CLOUDWORK\\SQLEXPRESS"; # \\ duas barras para scape CLOUDWORK\\SQLEXPRESS - Para MS SQL Version
-        my $nomebanco = "ime1";
-        my $userbanco = "postgres"; # sa
-        my $senhabanco = 'Qw3@lklk2244';
+        my $nomebanco = "xxxxx";
+        my $userbanco = "xxxx"; # sa
+        my $senhabanco = 'xxxxx';
         my $driver = "ADO"; # Pg # ADO # ODBC
         
         my $framework = "ASP";
