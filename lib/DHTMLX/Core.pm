@@ -46,10 +46,10 @@ DHTMLX::Core provides generic features used on entire DHTMLX Perl module
 	
 =head1 VERSION
 
-0.003
+0.004
 
 =cut
-	$VERSION = '0.003';
+	$VERSION = '0.004';
 	
 	# variaveis e definicoes iniciais
 	my $dsn;
@@ -57,9 +57,9 @@ DHTMLX::Core provides generic features used on entire DHTMLX Perl module
         my $SGDB = "PostgreSQL"; # PostgreSQL # SQL Server
         my $hostbanco = "localhost"; # 127.0.0.1
         my $instancia = "CLOUDWORK\\SQLEXPRESS"; # \\ duas barras para scape CLOUDWORK\\SQLEXPRESS - Para MS SQL Version
-        my $nomebanco = "ime1";
-        my $userbanco = "postgres"; # sa
-        my $senhabanco = 'Qw3@lklk2244';
+        my $nomebanco = "database";
+        my $userbanco = "user"; # sa
+        my $senhabanco = 'password';
         my $driver = "ADO"; # Pg # ADO # ODBC
         
         my $framework = "ASP";
@@ -257,7 +257,7 @@ Retrieve data from POST method
 		}
 	}
 	
-=head2 Post
+=head2 GET
     
     my $value_from_get = $core->Get($inputname);
 
@@ -297,7 +297,7 @@ Return absolute path of a given virtual / alias path
 	    return $server->MapPath($vpath)
 	}
 
-=head2 getpath
+=head2 getdomain
     
     my $domain = $core->getdomain();
 
@@ -311,7 +311,7 @@ Return the domain application
 	    return $request->ServerVariables("server_name");
 	}
 	
-=head2 getpath
+=head2 framework
     
     my $framework_factory = $core->framework();
 
